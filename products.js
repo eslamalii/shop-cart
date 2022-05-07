@@ -69,7 +69,3 @@ function showProcuts(products) {
     main.appendChild(productElement);
   });
 }
-
-function dossss(quantity) {
-  console.log(quantity);
-}
