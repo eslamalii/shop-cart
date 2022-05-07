@@ -10,16 +10,17 @@ body {
 /* Title Section */
 
 #title {
-  background-color: #1d3557;
+  background-color: #003566;
   color: #fff;
 }
 
 .container-fluid {
-  padding: 5% 15%;
+  padding: 2% 15%;
 }
 
 #about-us {
   padding: 5% 15%;
+  background-color: #003566;
 }
 
 /* Footer Section */
@@ -124,4 +125,33 @@ p {
   right: 0;
 }
 
+.filter-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
 
+#products {
+  background-color: #f2f2f2;
+}
+
+#unorder-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.list-item {
+  margin: 0 20px;
+}
+
+a {
+  color: rgb(128, 128, 144);
+  text-decoration: none;
+}
+
+a.active {
+  color: #000;
+}
