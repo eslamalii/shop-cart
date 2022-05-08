@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
   errorMsg.innerText = "";
   checkvalidation(fullname, e, "- Enter the full name <br>");
   checkvalidation(email, e, "- Invaild Email <br> ");
-  checkvalidation(phone, e, "- Passward must be 8 chars at least <br> ");
+  checkvalidation(phone, e, "- Invaild Phone Number <br> ");
   checkvalidation(message, e, "- Message must be 120 chars at least  <br>");
 });
 
